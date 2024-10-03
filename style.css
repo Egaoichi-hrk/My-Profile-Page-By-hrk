@@ -44,6 +44,7 @@ nav ul li a{
     background-image: url(https://cdn.pixabay.com/photo/2015/11/19/21/11/knowledge-1052013_1280.jpg);
     background-position: center ;
     background-size: cover;
+    width:100%;
     height:410px;
     background-attachment: fixed;
     
