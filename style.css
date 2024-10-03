@@ -73,7 +73,7 @@ nav ul li a{
     font-weight: bold;
     display: inline-block; /* この要素自体をブロック化して中央に配置 */
     position: relative;
-    padding: 0 100px; /* 左右の余白をつけて、赤線の表示位置を調整 */
+    padding: 0 50px; /* 左右の余白をつけて、赤線の表示位置を調整 */
     animation: ex1 1.5s ease  both; /* ここでアニメーションを適用 */
 }
 
@@ -171,7 +171,7 @@ hr{
     font-weight: bold;
     display: inline-block; /* この要素自体をブロック化して中央に配置 */
     position: relative;
-    padding: 0 100px; /* 左右の余白をつけて、赤線の表示位置を調整 */
+    padding: 0 50px; /* 左右の余白をつけて、赤線の表示位置を調整 */
  
     animation: ex1 1.5s ease  both; /* ここでアニメーションを適用 */
 }
@@ -234,7 +234,7 @@ hr{
     font-weight: bold;
     display: inline-block; /* この要素自体をブロック化して中央に配置 */
     position: relative;
-    padding: 0 100px; /* 左右の余白をつけて、赤線の表示位置を調整 */
+    padding: 0 50px; /* 左右の余白をつけて、赤線の表示位置を調整 */
  
     animation: ex1 1.5s ease  both; /* ここでアニメーションを適用 */
 }
@@ -327,7 +327,7 @@ hr{
  }
  form{
     text-align: center;
-    width:460px;
+    width:70%;
     margin:0 auto;
  }
 .item{
@@ -338,6 +338,7 @@ hr{
     width:70%;
     margin:0 auto;
     padding:4px;
+    box-sizing:border-box;
 
  }
  .label{
@@ -401,6 +402,7 @@ input[type = "reset"]{
 .tyosei{
     display: flex;
     justify-content: center;
+    padding:8px;
     
 }
 
